@@ -29,39 +29,39 @@ public class GroupB_FruitSalad {
         double Banana = scan.nextDouble();
 
 
-        /*String show;
-        weigth = PineApple + Cherry + DragonFruit + Banana; // Calculation for total ingredients.*/
+        String depict;
+        weigth = PineApple + Cherry + DragonFruit + Banana; // Calculation for total ingredients.
 
         /* Nested for loop created.*/
-        /*if(PineApple <= 0){
-            show = "Cherry, DragonFruit, and Banana\n";
+        if(PineApple <= 0){
+            depict = "Cherry, DragonFruit, and Banana\n";
             if(Cherry <= 0){
-                show = "DragonFruit, and Banana\n";
+                depict = "DragonFruit, and Banana\n";
                 if(DragonFruit <= 0){
-                    show = "Banana\n";
+                    depict = "Banana\n";
                     if(Banana <= 0){
-                        show = "Nothing Selected :(\n";
+                        depict = "Nothing Selected :(\n";
                     }
                 }
             }
         }
         else{
-            show = "PineApple, Cherry, DragonFruit, and Banana\n";
+            depict = "PineApple, Cherry, DragonFruit, and Banana\n";
             if(Cherry <= 0){
-                show = "PineApple, DragonFruit, and Banana\n";
+                depict = "PineApple, DragonFruit, and Banana\n";
             }
             else{
-                show = "PineApple, Cherry, DragonFruit, and Banana\n";
+                depict = "PineApple, Cherry, DragonFruit, and Banana\n";
                 if(DragonFruit <= 0){
-                    show = "PineApple, Cherry, and Banana\n";
+                    depict = "PineApple, Cherry, and Banana\n";
                 }
                 else{
-                    show = "PineApple, Cherry, DragonFruit, and Banana\n";
+                    depict = "PineApple, Cherry, DragonFruit, and Banana\n";
                     if(Banana <= 0){
-                        show = "PineApple, Cherry, and DragonFruit\n";
+                        depict = "PineApple, Cherry, and DragonFruit\n";
                     }
                     else{
-                        show = "PineApple, Cherry, DragonFruit, and Banana\n";
+                        depict = "PineApple, Cherry, DragonFruit, and Banana\n";
                     }
                 }
             }
@@ -71,7 +71,7 @@ public class GroupB_FruitSalad {
         //object.setIngredients(show); // setter function called for ingredients.
 
         System.out.print("Thank you for your order! Your fruit salad is ready.");
-        System.out.printf("Total weight of your salad is %.2fg, Ingredients: %s",weigth, show);*/
+        System.out.printf("Total weight of your salad is %.2fg, Ingredients: %s",weigth, depict);
     }
 }
 /*
